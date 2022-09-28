@@ -1,0 +1,18 @@
+`include "../agent/amp_interface.sv"
+`include "../agent/amp_seq_item.sv"
+`include "../agent/amp_seq_idle.sv"
+`include "../agent/amp_seq_set_scaler.sv"
+`include "../agent/amp_seq_set_base_number.sv"
+`include "../agent/amp_case1_seq.sv"
+`include "../agent/amp_sequencer.sv"
+`include "../agent/amp_agent_config.sv"
+`include "../agent/amp_driver.sv"
+`include "../agent/amp_monitor.sv"
+`include "../agent/amp_agent.sv"
+
+`include "../env/amp_env_refm.sv"
+`include "../env/amp_env_scb.sv"
+`include "../env/amp_env.sv"
+
+`include "../tests/amp_base_test.sv"
+`include "../tests/amp_testcase1.sv"
